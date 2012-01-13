@@ -1,0 +1,1256 @@
+/*
+THEME NAME: Topdown Consulting
+DESCRIPTION: Custom theme developed for Topdown Consulting
+VERSION: 1.0
+AUTHOR: Hanee Designs
+AUTHOR URI: http://www.haneedesigns.com/
+.
+*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #4a4a4a;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	line-height: 24px;
+	background: #f0f0f0;
+	min-width:982px;
+}
+
+img {border-style:none;}
+
+
+a:link {
+	color: #365084;
+	text-decoration: none;
+}
+
+a:active {
+	color: #365084;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #365084;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #365084;
+	text-decoration: underline;
+}
+
+a:focus {
+	-moz-outline-style: none;
+}
+
+input, textarea, select {
+	font:100% arial,sans-serif;
+	vertical-align:middle;
+}
+
+form,fieldset {
+	border:none;
+}
+
+
+/* Header */
+
+#header {
+        width: 980px;
+        height: 83px;
+        overflow:hidden;
+        margin: 0px auto 0 auto;
+        position: relative;
+        text-align: left;
+        border-left:1px solid #dddddd;
+        border-right:1px solid #dddddd;
+        background-color: white;
+        padding: 7px 0px 0px 0px;
+}
+
+.page-top{
+        background:url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/curve-header.gif) no-repeat center top;
+        width:982px;
+        height:8px;
+        margin:1px auto 0px auto;
+}
+
+/* Logo */
+
+#header h1 {
+        position: relative;
+        display: block;
+        width: 207px;
+        height: 74px;
+        margin: 0px 0 16px 15px;
+        float:left;
+}
+
+#header img {
+        display: block;
+        margin: 0 auto;
+}
+
+#header img.oracle {
+       position: absolute;
+       top: 20px;
+       right: 25px;
+}
+
+#search {
+       position: absolute;
+       top: 50px;
+       right: 18px;
+}
+
+#search #s {
+       color: #aaa;
+       background: transparent url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/search-bg.png) no-repeat;
+       border: none;
+       font-size: 12px;
+       height: 23px;
+       line-height: 21px;
+       width: 116px;
+       padding-left: 15px;
+       margin-right: 0;
+
+}
+
+/* Main Menu */
+/* supports up to one level of drop-downs, suckerfish style */
+
+#menu {
+	position: relative;
+	width: 982px;
+	text-align: left;
+	background-color: white;
+	margin: 0 auto;
+}
+
+#menu img.left {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#menu img.right {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#menu ul {
+	width: 982px;
+	margin: 0 auto;
+	background: white url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/menu-bg.png) top left repeat-x;
+	height: 40px;
+	text-align: center;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 36px;
+	text-decoration: none;
+	color: #444444;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 39px;
+	border-left: 1px solid #b8b8b8;
+}
+
+#menu li {
+	display: inline-block;
+	width: auto;
+	margin: 0 auto;
+	position: relative;
+	border-left: 1px solid white;
+}
+
+#menu li.first_page, #menu li.first_page a {
+	border-left: none;
+}
+
+#menu li ul {
+	position: absolute;
+	left: -999em;
+	width: 15em;
+	background: white;
+	margin: 0 auto;
+	z-index: 2000;
+	text-align: left;
+	border: 1px solid #b8b8b8;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 8px 0;
+}
+
+#menu li:hover ul {
+	left: 0;
+	height: auto;
+}
+
+#menu li ul li {
+	background-color: white;
+	display: block;
+	border: none;
+}
+
+#menu li ul li a {
+	padding: 5px 20px;
+	font-size: 12px;
+	line-height: 20px;
+	border: none;
+}
+
+#menu li ul li a:hover {
+	color: #e09329;
+}
+
+#menu li ul li ul {
+	position: relative;
+	border: none;
+	padding: 0 0 0 25px;
+	height: auto;
+	width: auto;
+}
+
+#menu li ul li ul li a {
+	background: transparent url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/menu-ul-ul-li-bg.png) center left no-repeat;
+	padding: 5px 13px;
+}
+
+#content_wrapper {
+	width: 980px;
+	background: white;
+	margin: 0px auto 0px auto;
+	text-align: left;
+	padding: 0px 0 1px 0;
+	border-left:1px solid #dddddd;
+	border-right:1px solid #dddddd;
+}
+
+.index-btm {
+	background:url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/curve-indexbtm.gif) no-repeat center top;
+	width:982px;
+	height:8px;
+	margin:0px auto 0px auto;
+}
+
+.content {
+
+}
+.content-top {
+	background:url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/curve-cnttop.gif) no-repeat center top;
+	width:982px;
+	height:8px;
+	position:absolute;
+	top:0px;
+	left:-1px;
+}
+.nav-entries-2{
+	margin:0px;
+	padding:0px;
+	text-align:right;
+	width:500px;
+	text-transform:uppercase;
+	font:normal 14px Arial, Helvetica, sans-serif;
+	color:#8a8a8a;
+	position:absolute;
+	bottom:-22px;
+	right:0px; 
+}
+
+.nav-entries div.nav-prev a, .nav-entries div.nav-next a, .nav-entries-2 div.nav-prev a, .nav-entries-2 div.nav-next a{
+	margin:0px 5px 0px 0px;
+	padding:0px;
+	color:#8a8a8a; 
+	text-decoration:none;
+	float:right;
+}
+.nav-entries div.nav-prev a:hover, .nav-entries div.nav-next a:hover, .nav-entries-2 div.nav-prev a:hover, .nav-entries-2 div.nav-next a:hover{
+	text-decoration:underline;
+}
+
+/* Boxes */
+
+ul.services, ul.solutions  {
+	margin:0px;
+	padding:0px;
+}
+ul.services li, ul.solutions li {
+	margin:0px 0px 10px 5px!important;
+	padding:0px 0px 0px 18px;
+	float:left;
+	line-height:20px!important;
+	font:normal 12px Arial, Helvetica, sans-serif;
+	color:#777777;
+	background:url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/arrow_1.gif) no-repeat left 6px;
+	list-style:none;
+}
+ul.services li a , ul.solutions li a {
+	margin:0px;
+	padding:0px;
+	color:#12235d;
+	text-decoration:none;
+}
+ul.services li a:hover , ul.solutions li a:hover {
+	text-decoration:underline;
+}
+
+ul.selected-clients {
+	margin:0px;
+	padding:0px;
+}
+ul.selected-clients li {
+	margin:0px 0px 5px 12px!important;
+	padding:0px 0px 0px 18px;
+	font:normal 12px Arial, Helvetica, sans-serif;
+	color:#13235d;
+	background:url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/arrow_1.gif) no-repeat left 3px;
+	list-style:none;
+}
+
+
+.nosidebar {
+	width: 730px;
+	margin-left: 5px;
+}
+
+.content .post {
+	width:556px;
+	clear: both;
+	padding:0px;
+	color: #20438a;
+	font-size: 12px;
+	line-height: 15px;
+}
+.share{
+	margin:0px;
+	padding:0px;
+	width:541px;
+	height:22px;
+	padding:8px 0px 0px 15px;
+	border-bottom:1px solid #ddd;
+	background:url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/bg-sharethis.jpg) no-repeat left top;
+}
+.share-btm{
+	margin:0px;
+	padding:0px;
+	width:556px;
+	height:8px;
+	padding:0px 0px 0px 0px;
+	background:url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/bg-sharethis-btm.jpg) no-repeat left top;
+}
+
+.div-postcontent{
+	width:524px;
+	padding:15px 15px 2px 15px;
+	margin:0px 0px 0px 0px;
+	color: #20438a;
+	font-size: 12px;
+	line-height: 15px;
+	border-right:1px solid #dddddd;
+	border-left:1px solid #dddddd;
+}
+.content h1, .content .post h1 {
+    color: #20438A;
+    font-size: 20px;
+    line-height: 1.25em;
+    margin: 0 0 9px 0px;
+    padding: 2px 0 0 15px;
+}
+
+.content h2, .content .post h2 {
+	font-size: 14px;
+	color: #20438a;
+	margin: 0 0 20px 0;
+}
+
+.content .post h2, .content .post h2 a {
+
+}
+
+.content .post h3 {
+	line-height: 25px;
+	margin: 0 0 0;
+}
+
+.content .post ul {
+	margin: 0 0 0 15px;
+}
+
+.content p {
+	margin-bottom: 18px;
+}
+
+.content p.edit_entry {
+	clear: left;
+	margin-left: 30px;
+}
+
+.content .entry {
+	position: relative;
+	clear: none;
+	margin:0px 0px 20px 0px;
+}
+*+html .content .entry {
+	margin:0px 0px 0px 0px;
+}
+
+.content #respond {
+	margin-left: 30px;
+	float: left;
+}
+
+.content .postmetadata, .postmetadata a {
+	color: #222;
+	font-size: 8pt;
+	margin-bottom: 25px;
+}
+
+.content #comments, .content .commentlist {
+	margin-left: 30px;
+}
+
+.content .commentlist {
+	list-style-type: none;
+}
+
+.content h3 {
+	font-size: 14pt;
+	padding: 5px 0 0 0;
+	line-height: 1.1em;
+}
+.content h1 a:hover, .content h2 a:hover, .content h3 a:hover {
+	text-decoration: underline;
+}
+
+.content .navigation a {
+	padding-bottom: 25px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.content .navigationbottom a {
+	padding-top: 25px;
+}
+
+/* search form that appears on search results page */
+.content #searchform {
+	padding: 10px;
+	width: 300px;
+	border: 1px solid #20438a;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.content #searchform label {
+	font-size: 12px;
+	color: #20438a;
+}
+
+.content #searchform #s {
+	font-size: 12px;
+	width: 150px;
+	padding: 3px 5px;
+	color: #20438a;
+}
+
+.content #searchform #searchsubmit {
+	font-size: 12px;
+	font-weight: bold;
+	color: #20438a;
+}
+
+/*#footer {
+	clear: both;
+	position: relative;
+	width: 982px;
+	margin: 10px auto 0 auto;
+	height: 42px;
+	line-height: 42px;
+	color: #777;
+	font-weight: normal;
+	font-size: 11px;
+	text-align: right;
+	margin-bottom: 30px;
+	border-top: 7px solid #dddddd;
+}
+*/
+/* Footer*/
+#footer {
+	clear: both;
+	position: relative;
+	width: 940px;
+	padding:0px 20px 0px 20px;
+	margin: 0px auto 0 auto;
+	line-height:32px;
+	color: #777;
+	font-weight: normal;
+	font-size: 11px;
+	text-align: right;
+}
+#footer a{
+	color: #12225c;
+	font-weight: normal;
+	font-size: 11px;
+	text-align: right;
+	text-decoration:none;
+	margin:0px 14px 0px 0px;
+}
+#footer a:hover{
+	text-decoration:underline;
+}
+
+/*  Side-bar and widget-specific styles */
+
+.sidebar {
+	clear: none;
+	width: 220px;
+	margin:0px 0 0 760px;
+	padding:0px 0px 0px 0px;
+	font-size: 12px;
+	line-height: 1.2em;
+}
+.leftsidebar {
+	float: left;
+	margin:100px 0px 0px 10px;
+	width:130px;
+	
+}
+
+#page_right_sidebar{
+	clear: none;
+	width: 220px;
+	margin:0px 0px 0px 730px;
+	padding:66px 0px 0px 0px;
+	font-size: 12px;
+	line-height: 1.2em;
+	
+}
+.sidebar ul {
+	list-style-type: none;
+}
+.sidebar ul li {
+	list-style-type: none;
+}
+.home_sidebar ul {
+	width: 211px;
+	list-style-type: none;
+}
+.sidebar .widget_acg_inner_connect {
+	width: 221px;
+	margin-bottom: 0px;
+}
+
+.home_sidebar ul ul,
+.sidebar .widget_acg_inner_connect ul {
+	width: 211px;
+	background: transparent url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/home-sidebar-bg.png) top left repeat-y;
+	padding:5px 0px 5px 0px;
+}
+
+.sidebar .widget_acg_inner_connect ul {
+	width: 211px;
+	background: transparent url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/home-sidebar-bg.png) top left repeat-y;
+	margin: 0;
+}
+
+.sidebar ul .widget_acg_inner_connect li {
+	background: transparent;
+	margin-bottom: 0;
+}
+
+.home_sidebar .widget_acg_home_connect h2,
+.sidebar .widget_acg_inner_connect h2 {
+	display: block;
+	width: 201px;
+	padding-left:10px;
+	height: 31px;
+	color: white;
+	text-align: left;
+	line-height: 31px;
+	font-size:14px;
+	background: transparent url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/home-sidebar-h2-bg.png) top left no-repeat;
+}
+
+.sidebar .widget_acg_inner_connect h2 {
+	width: 201px;
+	background: transparent url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/inner-sidebar-h2-bg.png) top left no-repeat;
+}
+
+.home_sidebar .widget_acg_home_connect a,
+.sidebar .widget_acg_inner_connect a,
+.sidebar .widget_acg_inner_connect p {
+	display: block;
+	width: 195px;
+	height: 20px;
+	line-height: 20px;
+	padding-top: 7px;
+	padding-left: 10px;
+	color: #333;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.home_sidebar .widget_acg_home_connect a img,
+.sidebar .widget_acg_inner_connect a img,
+.sidebar .widget_acg_inner_connect p img {
+	margin-right: 8px;
+	vertical-align: top;
+}
+
+.sidebar .widget_acg_inner_connect a.email {
+	color: #3366cc;
+}
+
+.sidebar .widget_acg_inner_connect img.bottom {
+	vertical-align: top;
+}
+
+.sidebar .widget_acg_custom_callout {
+	margin-bottom: 0px;
+}
+
+.sidebar .widget_acg_custom_callout div {
+	position: relative;
+}
+
+.sidebar .widget_acg_custom_callout img {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	z-index: 100;
+}
+
+.sidebar .widget_acg_custom_callout p.title {
+	position: absolute;
+	top: 17px;
+	left: 17px;
+	z-index: 101;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.sidebar .widget_acg_custom_callout div.text {
+	position: absolute;
+	top: 38px;
+	left: 17px;
+	z-index: 101;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.sidebar .widget_acg_custom_callout a.link {
+	display: block;
+	position: absolute;
+	bottom: 2px;
+	right: 17px;
+	height: 28px;
+	line-height: 28px;
+	z-index: 101;
+	color: white;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.sidebar .widget_acg_subnav {
+	text-align: right;
+	font-family: "Segoe UI",Candara,"Bitstream Vera Sans","DejaVu Sans","Bitstream Vera Sans","Trebuchet MS",Verdana,"Verdana Ref",sans-serif;
+    font-size: 13px;
+    text-align: right;}
+
+.sidebar .widget_acg_subnav a {
+	font-size: 13px;
+	display: block;
+	margin: 0 0 20px 10px;
+	color: #666666;
+}
+
+.sidebar .widget_acg_subnav .current_page_item a {
+	color: #df952b;
+	font-weight: bold;
+}
+/* styles from old theme for slideshow */
+.fade-gal{
+	list-style:none;
+	position:relative;
+	height:260px;
+}
+
+.fade-gal li {
+	position:absolute;
+	top:0;
+	width:982px;
+	height:260px;
+	left:0;
+	z-index:1;
+}
+
+.fade-gal .active {
+	z-index:2;
+}
+
+.section {
+	margin-top: 0px;
+	position:relative;
+	height:260px;
+	width: 982px;
+}
+
+.section img{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:2;
+}
+
+.tabset{
+	margin:0; 
+	padding:0;
+	list-style:none;
+	position:absolute;
+	right: 20px;
+	bottom: -35px;
+	z-index:3;
+}
+
+.tabset li{
+	float:left;
+	margin: 0 10px 0 0;
+}
+
+.tabset a {
+	display: block;
+	float:left;
+	overflow:hidden;
+	background: #1a3a7f;
+	color: #3d6bc7;
+	border: 1px solid #325eb5;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 17px;
+	height: 17px;
+	width: 17px;
+	margin-top: 6px;
+}
+
+.tabset a:hover, 
+.tabset a.active {
+	background: transparent url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/tab-nav-active-bg.png) no-repeat;
+	width: 19px;
+	border: none;
+	margin-top: 1px;
+	height: 25px;
+	padding-top: 5px;
+	color: white;
+	text-decoration: none;
+}
+
+/* blue panel at the bottom of the slideshow */
+.news {
+	width: auto;
+	padding-left: 25px;
+	height: 44px;
+	background: white url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/slide-panel.png) top left no-repeat;
+	color: white;
+	font-size: 12px;
+	line-height: 40px;
+	margin-top: -1px;
+}
+
+.news p, .news a {
+	line-height: 40px;
+}
+
+.news a:hover {
+	text-decoration: none;
+}
+
+.news a img {
+	margin: 0 0 0 15px;
+	vertical-align: middle;
+}
+
+.news a {
+	color: white;
+	font-size: 12px;
+}
+
+/* home page sections along bottom */
+.boxes {
+	margin: 10px 0;
+	padding:0px 15px 0px 15px;
+}
+
+.boxes div {
+	float: left;
+	margin-right: 20px;
+	font-size: 12px;
+	line-height: 1.2em;
+}
+
+.boxes div h3 {
+	font:bold 12px Arial, Helvetica, sans-serif!important;
+	margin:10px 0px 9px 0px;
+}
+
+.boxes .home_sidebar {
+	margin-right: 0;
+	float: right;
+	width: 211px;
+	position:relative;
+}
+.boxes .home_sidebar .bottom{
+	margin:0px;
+	position:absolute;
+	background:0px;
+	left:0px;
+}
+
+.write-comments{
+        width:524px;
+        float:left;
+        margin:40px 0px 20px 0px;
+        padding:15px 15px 15px 15px;
+        border-left:1px solid #dddddd;
+        border-right:1px solid #dddddd;
+        font:normal 11px Arial, Helvetica, sans-serif;
+        color:#474747;
+        position:relative;
+}
+
+*+html .write-comments{
+         margin:40px 0px 0px 0px;
+}
+
+.write-comments .top, .write-comments .bottom{
+         width:556px;
+         height:8px;
+         margin:0px 0px 0px 0px;
+         padding:0px 0px 0px 0px;
+         position:absolute;
+}
+
+.write-comments .top{
+         background:url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/bg-sharethis-top.jpg) no-repeat left top;
+         top:-2px;
+         left:-1px;
+}
+
+.write-comments .bottom{
+          background:url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/bg-sharethis-btm.jpg) no-repeat left top;
+          bottom:-2px;
+          left:-1px;
+}
+
+.write-comments h3{
+          margin:0px 0px 10px 0px;
+          padding:0px;
+          font:bold 12px Arial, Helvetica, sans-serif;
+}
+
+.write-comments li{
+          margin:0px 0px 15px 0px;
+          padding:12px 12px 12px 12px;
+          list-style:none;
+          border-bottom:1px solid #dbdbdb;
+          background-color:#efefef;
+}
+
+.write-comments li p{
+          margin:5px 0px 2px 0px;
+}
+
+.write-comments li a{
+	 color: #454646;
+	 text-decoration: none;
+}
+
+.write-comments li a:hover{
+	 text-decoration: underline;
+}
+
+.write-comments form p{
+         margin:0px 0px 5px 0px;
+}
+
+.write-comments form p a{
+        margin:0px;
+	color: #454646;
+	text-decoration: none;
+}
+
+.write-comments form p a:hover{
+	text-decoration: underline;
+}
+
+.write-comments h3#respond{
+        margin:15px 0px 20px 0px;
+        padding:0px 0px 5px 0px;
+        font:bold 15px Arial, Helvetica, sans-serif;
+        border-bottom:1px solid #dddddd;
+        float:none;
+}
+
+ .write-comments h3#comments{
+	margin:0px;
+}
+
+.write-comments #commentform input {
+	background:url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/bg-txtbox2.gif) no-repeat left top ;
+	color: #666666;
+	margin: 0 5px 10px 0;
+	padding: 5px 7px;
+	width: 167px;
+        border:0;
+}
+
+.write-comments #commentform #comment {
+	background:url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/bg-txtarea.gif) no-repeat left top ;
+	color: #666666;
+	margin: 0 5px 10px 0;
+	padding: 5px 7px;
+	width: 294px;
+	height:107px;
+	border:0;
+}
+
+.write-comments #commentform #submit {
+	width:120px;
+	height:26px;
+	margin:2px 0px 0px 0px;
+	padding:0px 0px 4px 0px;
+	background:url(http://www.topdownconsulting.com/wp-content/themes/topdown/images/bg-button2.gif) no-repeat left top;
+	border:0px solid #ccc;
+	font:normal 12px Arial, Helvetica, sans-serif;
+	color:#f5f5f5;
+
+}
+
+ .write-comments ol.commentlist {
+	margin-left:0px;
+}
+
+/* general clears and floats */
+
+.clearleft {
+	clear:left;
+}
+
+.clearright {
+	clear: right;
+}
+
+.clearboth {
+	width: 100%;
+	float: none;
+	clear: both;
+}
+
+.floatleft {
+	float: left;
+}
+
+.floatright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+	margin: 5px 15px 10px 0;
+}
+
+.alignright {
+	float: right;
+	margin: 5px 0 10px 15px;
+}
+/* janey */
+.content p, .content li {
+	color: #333333;
+}
+.content h2, .content .post h2{
+color: #4672d5;
+}
+
+
+.sidebar .widget_acg_custom_callout div.text{
+top: 14px;
+line-height: 15px;}
+
+
+.sidebar li{ padding: 1px; }
+.home_sidebar{position: absolute: left: 740px;}
+.content .post ul {
+    margin: 0 0 18px 15px;
+}
+
+.post td{color:#333333; padding:10px;}
+/* janey */
+
+.leftcol
+{
+	width:200px;
+	float:left;
+	margin-top:15px;
+	font-size:12px;
+	line-height:normal;
+	margin-left:10px; 
+}
+.leftcol p
+{
+	margin-top:0px;
+}
+p.copyright
+{
+	margin:0;
+}
+.main_column, #page
+{
+	float:left;
+	margin-top:15px;
+	width:710px;
+	font-size:12px;
+	line-height:normal;
+	overflow:hidden; 
+	margin-left:25px;
+}
+#branding
+{
+font-size:12px;
+	line-height:normal; 
+	padding:0px;
+}
+.tabs
+{
+position:relative;
+top:2px;
+}
+.page_content_wrapper
+{
+	
+}
+.userlogin_custom #edit-submit
+{
+	width:75px;
+	font-size:12px;
+}
+.userlogin_custom input
+{
+	border: 1px solid #999999;	
+	margin-bottom:5px;
+	width:175px;
+	padding:5px;
+	color:#666666;
+}
+.welcome_login
+{
+	font-weight: bold;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #666666;
+	border-right-color: #666666;
+	border-bottom-color: #666666;
+	border-left-color: #666666;
+	margin-bottom: 10px;
+	padding: 5px;
+	padding-top: 0px;
+}
+.welcomemessage
+{
+	background-color:#ebf2fc;
+	border: 1px solid #d2e2f2;
+	padding:15px;
+	margin-bottom:20px;
+}
+h1.welcomemessage_hdr
+{
+	font-weight:normal;
+	color:#263f8d;
+	font-size:22px;
+	margin-left:15px;
+}
+.welcomemessage p
+{
+	margin-top:0px;
+}
+a.welcome_register_btn:link, a.welcome_register_btn:visited, a.welcome_register_btn:active, a.welcome_register_btn:hover
+{
+	background: #8abc21;
+
+background: -moz-linear-gradient(top,  #8abc21 0%, #41710e 100%);
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8abc21), color-stop(100%,#41710e));
+
+background: -webkit-linear-gradient(top,  #8abc21 0%,#41710e 100%);
+
+background: -o-linear-gradient(top,  #8abc21 0%,#41710e 100%);
+
+background: -ms-linear-gradient(top,  #8abc21 0%,#41710e 100%);
+
+background: linear-gradient(top,  #8abc21 0%,#41710e 100%);
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8abc21', endColorstr='#41710e',GradientType=0 );
+
+
+color:#FFFFFF;
+height:15px;
+padding:5px;
+text-align:center;
+display:block;
+margin:0px;
+font-weight:bold;
+width:100px;
+-moz-border-radius:5px; /* Firefox */
+  -webkit-border-radius: 5px; /* Safari, Chrome */
+  border-radius: 5px; /* CSS3 */
+}
+#block-menu-menu-assets-menu ul.menu li
+{
+list-style:none;
+text-align:right;
+font-size:14px;
+margin-bottom:15px;
+}
+
+#content_wrapper
+{
+padding-bottom:25px;
+}
+.act_content .node
+{
+	margin-left:15px;
+	margin-right:15px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #d1dbf6;
+	border-right-color: #d1dbf6;
+	border-bottom-color: #d1dbf6;
+	border-left-color: #d1dbf6;	
+	padding-bottom:10px;
+	padding-top:0px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.box
+{
+border: 1px solid #eeeeee;
+}
+.homepage_hdr, .content h1.homepage_hdr, .content .post h1.homepage_hdr
+{
+padding:10px;
+margin:0px;
+	background: #1e5799;
+
+background: -moz-linear-gradient(top,  #1e5799 0%, #3b83da 100%);
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(100%,#3b83da));
+
+background: -webkit-linear-gradient(top,  #1e5799 0%,#3b83da 100%);
+
+background: -o-linear-gradient(top,  #1e5799 0%,#3b83da 100%);
+
+background: -ms-linear-gradient(top,  #1e5799 0%,#3b83da 100%);
+
+background: linear-gradient(top,  #1e5799 0%,#3b83da 100%);
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#3b83da',GradientType=0 );
+color:#FFFFFF;
+
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+
+-webkit-border-top-left-radius:5px;
+-webkit-border-top-right-radius:5px;
+border-top-right-radius: 5px; 
+border-top-left-radius: 5px; 
+font-weight:normal;
+font-size:15px;
+margin-top:5px;
+}
+.type
+{
+	color:#666666;
+}
+.typeicon
+{
+	padding-left:25px;
+	background-repeat: no-repeat;
+	background-position: left 5px;
+}
+.Webinars_icon
+{
+	background-image: url(/themes/topdown/images/whitepaper.gif);
+}
+.Podcasts_icon
+{
+	background-image: url(/themes/topdown/images/video.gif);
+}
+.Whitepapers_icon
+{
+	background-image: url(/themes/topdown/images/whitepaper.gif);
+}
+.eBooks_icon
+{
+	background-image: url(/themes/topdown/images/ebook.gif);
+}
+.Videos_icon
+{
+	background-image: url(/themes/topdown/images/video.gif);
+}
+.content h2.teaser_hdr
+{
+	margin:0;
+}
+.typeicon .content
+{
+	font-size:11px;
+	margin-top:5px;
+}
+.typeicon p
+{
+	margin:0px;
+}
+.fimage
+{
+width:165px;
+text-align:center;
+float:left;
+margin-top:20px;
+}
+.finfo
+{
+float:left;
+width:500px;
+margin-left:10px;
+}
+.field-name-field-assetfiles
+{
+	margin-top:20px;
+}

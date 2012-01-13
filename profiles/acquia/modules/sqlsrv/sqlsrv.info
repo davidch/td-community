@@ -1,0 +1,22 @@
+name = SQL Server
+description = Integration with SQL Server.
+core = 7.x
+
+; This is slightly evil, but for a good cause. We need the module to be
+; enabled in order to receive security updated and track usage data.
+required = TRUE
+hidden = TRUE
+
+; Tests
+files[] = tests/sqlsrv.schema.test
+
+; Information added by drupal.org packaging script on 2011-07-03
+version = "7.x-1.1"
+core = "7.x"
+project = "sqlsrv"
+datestamp = "1309707719"
+
+
+; Information added by Acquia.com packaging script
+acquia = "1"
+
