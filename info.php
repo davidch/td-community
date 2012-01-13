@@ -1,1 +1,1 @@
-<?php phpinfo(); ?>
+<?php echo "testing branch"; phpinfo(); ?>
